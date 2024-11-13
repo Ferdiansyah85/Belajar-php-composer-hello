@@ -1,0 +1,19 @@
+{
+    "name": "siapaaku/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Siapaaku\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ferdiansyah",
+            "email": "ansyahferdi0705@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
